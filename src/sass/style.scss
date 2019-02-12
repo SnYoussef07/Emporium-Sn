@@ -1,0 +1,22 @@
+@import "./../../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+
+body {
+  height: 2000px; // a sup !!!!!
+
+  .navbar {
+    display: block;
+    transition-property: display; /* Active la transition sur background-color */
+    transition-duration: 5s; /* La transition dure 1s */
+  }
+  .fixed-top.scrolled {
+    transition-property: display; /* Active la transition sur background-color */
+    transition-duration: 5s; /* La transition dure 1s */
+  }
+  #sectionShop {
+    background-color: #f3f3f3;
+  }
+}
