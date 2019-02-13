@@ -9,14 +9,28 @@ body {
 
   .navbar {
     display: block;
-    transition-property: display; /* Active la transition sur background-color */
-    transition-duration: 5s; /* La transition dure 1s */
   }
-  .fixed-top.scrolled {
-    transition-property: display; /* Active la transition sur background-color */
-    transition-duration: 5s; /* La transition dure 1s */
-  }
+
   #sectionShop {
     background-color: #f3f3f3;
+  }
+
+  #sectionService {
+    h3 {
+      text-decoration: underline;
+    }
+  }
+}
+
+/* query pour tablette*/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/* query Pour smartphon*/
+@media (max-width: 767px) {
+  #sectionShop {
+    #h1Media {
+      font-size: 4rem;
+    }
   }
 }

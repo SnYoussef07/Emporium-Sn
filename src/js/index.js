@@ -4,8 +4,8 @@ window.onscroll = function() {
 
 const navbarHid = () => {
   if (
-    document.body.scrollTop > 800 ||
-    document.documentElement.scrollTop > 800
+    document.body.scrollTop > 600 ||
+    document.documentElement.scrollTop > 600
   ) {
     document.querySelector(".navbar h2").classList.add("d-none");
     document.querySelector(".navbar-brand").classList.remove("d-none");
