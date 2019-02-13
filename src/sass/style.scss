@@ -6,8 +6,6 @@ $fa-font-path: "../webfonts";
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
 
 body {
-  height: 2000px; // a sup !!!!!
-
   .navbar {
     display: block;
   }
@@ -23,9 +21,25 @@ body {
   }
 
   #sectionProducts {
+    a {
+      font-weight: 900;
+      font-size: 18px;
+      text-decoration: none;
+      color: black;
+    }
+    p {
+      font-weight: 900;
+      font-size: 17px;
+      text-decoration: none;
+      color: black;
+    }
     .card {
       position: relative;
       overflow: hidden;
+
+      img {
+        transition: 0.5s;
+      }
 
       .bodyCard {
         position: absolute;
@@ -51,6 +65,24 @@ body {
     .card:hover .bodyCard {
       bottom: 0;
     }
+    .card:hover {
+      img {
+        transform: scale(1.1);
+        transition: 0.5s;
+      }
+    }
+  }
+
+  #sectionLearn {
+    background: url("./../../public/images/cta-bg.jpg") no-repeat center center
+      fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    padding: 20%;
+    margin-top: 5%;
   }
 }
 

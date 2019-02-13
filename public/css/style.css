@@ -15306,9 +15306,6 @@ readers do not read off random characters that represent icons */
   font-weight: 900;
 }
 
-body {
-  height: 2000px;
-}
 body .navbar {
   display: block;
 }
@@ -15318,9 +15315,24 @@ body #sectionShop {
 body #sectionService h3 {
   text-decoration: underline;
 }
+body #sectionProducts a {
+  font-weight: 900;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+body #sectionProducts p {
+  font-weight: 900;
+  font-size: 17px;
+  text-decoration: none;
+  color: black;
+}
 body #sectionProducts .card {
   position: relative;
   overflow: hidden;
+}
+body #sectionProducts .card img {
+  transition: 0.5s;
 }
 body #sectionProducts .card .bodyCard {
   position: absolute;
@@ -15342,6 +15354,19 @@ body #sectionProducts .card .bodyCard .secondCol {
 }
 body #sectionProducts .card:hover .bodyCard {
   bottom: 0;
+}
+body #sectionProducts .card:hover img {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+body #sectionLearn {
+  background: url("./../../public/images/cta-bg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 20%;
+  margin-top: 5%;
 }
 
 /* query pour tablette*/
