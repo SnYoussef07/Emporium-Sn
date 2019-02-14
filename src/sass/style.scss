@@ -84,6 +84,59 @@ body {
     padding: 20%;
     margin-top: 5%;
   }
+
+  #sectionCarousel {
+    a {
+      font-weight: 900;
+      font-size: 18px;
+      text-decoration: none;
+      color: black;
+    }
+    p {
+      font-weight: 900;
+      font-size: 17px;
+      text-decoration: none;
+      color: black;
+    }
+    .card {
+      position: relative;
+      overflow: hidden;
+
+      img {
+        transition: 0.5s;
+      }
+
+      .bodyCard {
+        position: absolute;
+        height: 35%;
+        left: 0;
+        right: 0;
+        bottom: -35%;
+        transition: 0.5s;
+
+        .firstCol {
+          background-color: black;
+          opacity: 0.9;
+          padding: 20px 10px 20px 10px;
+        }
+        .secondCol {
+          background-color: #bd584e;
+          opacity: 0.9;
+          padding: 20px 10px 20px 10px;
+        }
+      }
+    }
+
+    .card:hover .bodyCard {
+      bottom: 0;
+    }
+    .card:hover {
+      img {
+        transform: scale(1.1);
+        transition: 0.5s;
+      }
+    }
+  }
 }
 
 /* query pour tablette*/
