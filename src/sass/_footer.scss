@@ -1,0 +1,31 @@
+footer {
+  background-color: #212121;
+  font-weight: 100;
+  font-size: 12px;
+
+  ul {
+    list-style-image: url("./../images/next.png");
+
+    li {
+      border-bottom: 1px solid #909090;
+      padding-bottom: 7%;
+      a {
+        text-decoration: none;
+        color: #909090;
+      }
+    }
+  }
+
+  .myButton {
+    a {
+      font-size: 11px;
+      text-transform: uppercase;
+      font-weight: 100;
+      padding: 7px 16px 8px;
+      border-width: 1px;
+      border-style: solid;
+      text-decoration: none;
+      color: #909090;
+    }
+  }
+}
