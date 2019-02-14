@@ -15306,35 +15306,24 @@ readers do not read off random characters that represent icons */
   font-weight: 900;
 }
 
-body .navbar {
-  display: block;
-}
-body #sectionShop {
-  background-color: #f3f3f3;
-}
-body #sectionService h3 {
-  text-decoration: underline;
-}
-body #sectionProducts a {
-  font-weight: 900;
-  font-size: 18px;
-  text-decoration: none;
-  color: black;
-}
-body #sectionProducts p {
-  font-weight: 900;
+#sectionProducts a {
+  font-weight: 400;
   font-size: 17px;
   text-decoration: none;
   color: black;
 }
-body #sectionProducts .card {
+#sectionProducts p {
+  text-decoration: none;
+  color: black;
+}
+#sectionProducts .card {
   position: relative;
   overflow: hidden;
 }
-body #sectionProducts .card img {
+#sectionProducts .card img {
   transition: 0.5s;
 }
-body #sectionProducts .card .bodyCard {
+#sectionProducts .card .bodyCard {
   position: absolute;
   height: 25%;
   left: 0;
@@ -15342,24 +15331,25 @@ body #sectionProducts .card .bodyCard {
   bottom: -35%;
   transition: 0.5s;
 }
-body #sectionProducts .card .bodyCard .firstCol {
+#sectionProducts .card .bodyCard .firstCol {
   background-color: black;
   opacity: 0.9;
   padding: 20px 0;
 }
-body #sectionProducts .card .bodyCard .secondCol {
+#sectionProducts .card .bodyCard .secondCol {
   background-color: #bd584e;
   opacity: 0.9;
   padding: 20px 0;
 }
-body #sectionProducts .card:hover .bodyCard {
+#sectionProducts .card:hover .bodyCard {
   bottom: 0;
 }
-body #sectionProducts .card:hover img {
+#sectionProducts .card:hover img {
   transform: scale(1.1);
   transition: 0.5s;
 }
-body #sectionLearn {
+
+#sectionLearn {
   background: url("./../../public/images/cta-bg.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -15368,26 +15358,23 @@ body #sectionLearn {
   padding: 20%;
   margin-top: 5%;
 }
-body #sectionCarousel a {
-  font-weight: 900;
-  font-size: 18px;
+
+#sectionCarousel a {
   text-decoration: none;
   color: black;
 }
-body #sectionCarousel p {
-  font-weight: 900;
-  font-size: 17px;
+#sectionCarousel p {
   text-decoration: none;
   color: black;
 }
-body #sectionCarousel .card {
+#sectionCarousel .card {
   position: relative;
   overflow: hidden;
 }
-body #sectionCarousel .card img {
+#sectionCarousel .card img {
   transition: 0.5s;
 }
-body #sectionCarousel .card .bodyCard {
+#sectionCarousel .card .bodyCard {
   position: absolute;
   height: 35%;
   left: 0;
@@ -15395,36 +15382,59 @@ body #sectionCarousel .card .bodyCard {
   bottom: -35%;
   transition: 0.5s;
 }
-body #sectionCarousel .card .bodyCard .firstCol {
+#sectionCarousel .card .bodyCard .col-6 {
+  font-size: 14px;
+}
+#sectionCarousel .card .bodyCard .firstCol {
   background-color: black;
   opacity: 0.9;
-  padding: 20px 10px 20px 10px;
+  padding: 20px 5px 20px 5px;
 }
-body #sectionCarousel .card .bodyCard .secondCol {
+#sectionCarousel .card .bodyCard .secondCol {
   background-color: #bd584e;
   opacity: 0.9;
-  padding: 20px 10px 20px 10px;
+  padding: 20px 5px 20px 5px;
 }
-body #sectionCarousel .card:hover .bodyCard {
+#sectionCarousel .card:hover .bodyCard {
   bottom: 0;
 }
-body #sectionCarousel .card:hover img {
+#sectionCarousel .card:hover img {
   transform: scale(1.1);
   transition: 0.5s;
 }
-body #SectionAway .bodyContG {
+
+#sectionShop {
+  background-color: #f3f3f3;
+}
+
+#sectionService h3 {
+  text-decoration: underline;
+}
+
+#SectionAway .bodyContG {
   background-color: #f3f3f3;
   padding: 25% 15%;
 }
-body #SectionAway .bodyCont {
+#SectionAway .bodyCont {
   padding: 25% 15%;
+}
+
+@font-face {
+  font-family: "poppins";
+  src: url("../fonts/Poppins-ExtraBold.ttf");
+}
+body {
+  font-family: "poppins", cursive;
+}
+body .navbar {
+  display: block;
 }
 
 /* query pour tablette*/
 /* query Pour smartphon*/
 @media (max-width: 767px) {
   #sectionShop #h1Media {
-    font-size: 4rem;
+    font-size: 3.6rem;
   }
 }
 

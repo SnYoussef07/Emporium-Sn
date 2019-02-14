@@ -4,148 +4,21 @@ $fa-font-path: "../webfonts";
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+@import "./sectionProducts";
+@import "./_sectionLearn.scss";
+@import "./sectionCarousel";
+@import "./shopServiceAway";
+
+@font-face {
+  font-family: "poppins";
+  src: url("../fonts/Poppins-ExtraBold.ttf");
+}
 
 body {
+  font-family: "poppins", cursive;
+
   .navbar {
     display: block;
-  }
-
-  #sectionShop {
-    background-color: #f3f3f3;
-  }
-
-  #sectionService {
-    h3 {
-      text-decoration: underline;
-    }
-  }
-
-  #sectionProducts {
-    a {
-      font-weight: 900;
-      font-size: 18px;
-      text-decoration: none;
-      color: black;
-    }
-    p {
-      font-weight: 900;
-      font-size: 17px;
-      text-decoration: none;
-      color: black;
-    }
-    .card {
-      position: relative;
-      overflow: hidden;
-
-      img {
-        transition: 0.5s;
-      }
-
-      .bodyCard {
-        position: absolute;
-        height: 25%;
-        left: 0;
-        right: 0;
-        bottom: -35%;
-        transition: 0.5s;
-
-        .firstCol {
-          background-color: black;
-          opacity: 0.9;
-          padding: 20px 0;
-        }
-        .secondCol {
-          background-color: #bd584e;
-          opacity: 0.9;
-          padding: 20px 0;
-        }
-      }
-    }
-
-    .card:hover .bodyCard {
-      bottom: 0;
-    }
-    .card:hover {
-      img {
-        transform: scale(1.1);
-        transition: 0.5s;
-      }
-    }
-  }
-
-  #sectionLearn {
-    background: url("./../../public/images/cta-bg.jpg") no-repeat center center
-      fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    padding: 20%;
-    margin-top: 5%;
-  }
-
-  #sectionCarousel {
-    a {
-      font-weight: 900;
-      font-size: 18px;
-      text-decoration: none;
-      color: black;
-    }
-    p {
-      font-weight: 900;
-      font-size: 17px;
-      text-decoration: none;
-      color: black;
-    }
-    .card {
-      position: relative;
-      overflow: hidden;
-
-      img {
-        transition: 0.5s;
-      }
-
-      .bodyCard {
-        position: absolute;
-        height: 35%;
-        left: 0;
-        right: 0;
-        bottom: -35%;
-        transition: 0.5s;
-
-        .firstCol {
-          background-color: black;
-          opacity: 0.9;
-          padding: 20px 10px 20px 10px;
-        }
-        .secondCol {
-          background-color: #bd584e;
-          opacity: 0.9;
-          padding: 20px 10px 20px 10px;
-        }
-      }
-    }
-
-    .card:hover .bodyCard {
-      bottom: 0;
-    }
-    .card:hover {
-      img {
-        transform: scale(1.1);
-        transition: 0.5s;
-      }
-    }
-  }
-
-  #SectionAway {
-    .bodyContG {
-      background-color: #f3f3f3;
-      padding: 25% 15%;
-    }
-    .bodyCont {
-      padding: 25% 15%;
-    }
   }
 }
 
@@ -157,7 +30,7 @@ body {
 @media (max-width: 767px) {
   #sectionShop {
     #h1Media {
-      font-size: 4rem;
+      font-size: 3.6rem;
     }
   }
 }
