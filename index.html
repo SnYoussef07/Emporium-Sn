@@ -9,13 +9,13 @@
   </head>
   <body>
     <!-- header -->
-    <div class="container">
+    <div class="switchColor bg-white">
       <div class="row justify-content-center">
         <h2 class="display-5 p-5 text-center"><strong>emporium.</strong></h2>
       </div>
     </div>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white switchColor">
       <div class="row mb-3 text-center">
         <div class="col-lg-2">
           <h4>
@@ -62,9 +62,11 @@
         <div class="col-lg-3">
           <button
             class="btn btn-light border border-dark p-3 rounded-circle"
+            id="btnWhite"
           ></button>
           <button
-            class="btn btn-dark border border-dark p-3 rounded-circle"
+            class="btn btn-dark border border-dark p-3 rounded-circle border-white"
+            id="btnDark"
           ></button>
           <button class="btn btn-dark ml-3">conexion</button>
         </div>
@@ -766,6 +768,7 @@
         </div>
       </div>
     </footer>
+    <!-- Copyright -->
     <section id="sectionCopy" class="p-5">
       <p class="text-center">Copyright 2020 GoodLayers, All Right Reserved</p>
     </section>
