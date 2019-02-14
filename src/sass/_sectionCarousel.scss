@@ -1,0 +1,54 @@
+#sectionCarousel {
+  a {
+   
+    text-decoration: none;
+    color: black;
+  }
+  p {
+    
+    text-decoration: none;
+    color: black;
+  }
+  .card {
+    position: relative;
+    overflow: hidden;
+
+    img {
+      transition: 0.5s;
+    }
+
+    .bodyCard {
+      position: absolute;
+      height: 35%;
+      left: 0;
+      right: 0;
+      bottom: -35%;
+      transition: 0.5s;
+
+      .col-6{
+        font-size: 14px;
+      }
+
+      .firstCol {
+        background-color: black;
+        opacity: 0.9;
+        padding: 20px 5px 20px 5px;
+      }
+      .secondCol {
+        background-color: #bd584e;
+        opacity: 0.9;
+        padding: 20px 5px 20px 5px;
+      }
+    }
+  }
+
+  .card:hover .bodyCard {
+    bottom: 0;
+  }
+  .card:hover {
+    img {
+      transform: scale(1.1);
+      transition: 0.5s;
+    }
+  }
+}
