@@ -15465,6 +15465,28 @@ body #sectionCopy {
 body #sectionCopy p {
   color: #909090;
 }
+body .myModal {
+  position: fixed;
+  /* Fixe sur l'ecran */
+  z-index: 1;
+  padding-top: 12%;
+  /* Location of the box */
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+body .myModal .modal-content {
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 70%;
+}
 
 /* query pour tablette*/
 @media (min-width: 768px) and (max-width: 991px) {

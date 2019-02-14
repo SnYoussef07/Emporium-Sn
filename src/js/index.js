@@ -1,3 +1,4 @@
+/* Scroll navBar */
 window.onscroll = function() {
   navbarHid();
 };
@@ -15,7 +16,7 @@ const navbarHid = () => {
   }
 };
 
-/*Nav button*/
+/*SWitch Color*/
 const btnWhite = document.getElementById("btnWhite");
 const btnDark = document.getElementById("btnDark");
 
@@ -42,3 +43,6 @@ btnDark.addEventListener("click", () => {
     elt.classList.add("navbar-dark");
   }
 });
+
+/* Modal */
+const btnModal = document.getElementById("btnModal");
