@@ -10,6 +10,20 @@
       }
     }
   }
+
+  .myModal {
+    padding-top: 200px;
+
+    .modal-content {
+      padding: 10px;
+
+      .inscription {
+        input {
+          width: 35%;
+        }
+      }
+    }
+  }
 }
 
 /* query Pour smartphon*/
@@ -30,6 +44,26 @@
       }
       .myButton {
         padding: 0 !important;
+      }
+    }
+  }
+
+  .myModal {
+    padding-top: 200px;
+
+    .modal-content {
+      padding: 10px;
+
+      .connexion {
+        input {
+          width: 100%;
+        }
+      }
+
+      .inscription {
+        input {
+          width: 45%;
+        }
       }
     }
   }

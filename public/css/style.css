@@ -15453,7 +15453,7 @@ footer .myButton a {
   position: fixed;
   /* Fixe sur l'ecran */
   z-index: 1;
-  padding-top: 12%;
+  padding-top: 10%;
   /* Location of the box */
   top: 0;
   width: 100%;
@@ -15492,6 +15492,16 @@ footer .myButton a {
   footer .row .myButton {
     padding: 0 !important;
   }
+
+  .myModal {
+    padding-top: 200px;
+  }
+  .myModal .modal-content {
+    padding: 10px;
+  }
+  .myModal .modal-content .inscription input {
+    width: 35%;
+  }
 }
 /* query Pour smartphon*/
 @media (max-width: 767px) {
@@ -15507,6 +15517,19 @@ footer .myButton a {
   }
   footer .row .myButton {
     padding: 0 !important;
+  }
+
+  .myModal {
+    padding-top: 200px;
+  }
+  .myModal .modal-content {
+    padding: 10px;
+  }
+  .myModal .modal-content .connexion input {
+    width: 100%;
+  }
+  .myModal .modal-content .inscription input {
+    width: 45%;
   }
 }
 @font-face {
