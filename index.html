@@ -74,22 +74,31 @@
     </nav>
     <!-- Modal -->
     <section class="">
-      <div id="myModal" class="myModal">
+      <div id="myModal" class="myModal d-none">
         <!-- Modal content -->
         <div class="modal-content">
+          <span class="close">&times;</span>
+          <!-- Button modal -->
           <div class="buttonChange mx-auto mb-3">
             <button class="btn btn-info" id="login">Connexion</button>
             <button class="btn btn-info" id="signUp">Inscription</button>
           </div>
-
-          <div class="connexion d-flex w-50 mx-auto my-3 flex-column">
+          <!-- COnnexion -->
+          <div class="connexion w-50 mx-auto my-3 flex-column">
             <input type="text" placeholder="Email" class="mb-3" />
             <input type="password" placeholder="Mot de passe" class="mb-3" />
             <button class="btn btn-success">Submit</button>
           </div>
-
-          <div class="inscription d-flex w-50 mx-auto my-3 flex-column">
-            <input type="text" placeholder="Email" class="mb-3" />
+          <!-- Incription -->
+          <div class="inscription w-50 mx-auto my-3 flex-column d-none">
+            <div class="d-flex justify-content-center">
+              <input type="text" placeholder="Nom" class="mb-3 mr-3" />
+              <input type="text" placeholder="Prénom" class="mb-3 mr-3" />
+            </div>
+            <div class="d-flex justify-content-center">
+              <input type="text" placeholder="Age" class="mb-3 mr-3" />
+              <input type="text" placeholder="Email" class="mb-3 mr-3" />
+            </div>
             <input type="password" placeholder="Mot de passe" class="mb-3" />
             <button class="btn btn-success">Submit</button>
           </div>

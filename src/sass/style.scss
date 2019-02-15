@@ -48,6 +48,18 @@ body {
       border: 1px solid #888;
       width: 70%;
     }
+    .close {
+      color: #aaaaaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    .connexion {
+      display: flex;
+    }
+    .inscription {
+      display: flex;
+    }
   }
 }
 

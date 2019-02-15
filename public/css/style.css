@@ -15487,6 +15487,18 @@ body .myModal .modal-content {
   border: 1px solid #888;
   width: 70%;
 }
+body .myModal .close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+body .myModal .connexion {
+  display: flex;
+}
+body .myModal .inscription {
+  display: flex;
+}
 
 /* query pour tablette*/
 @media (min-width: 768px) and (max-width: 991px) {

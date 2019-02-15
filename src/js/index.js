@@ -45,4 +45,34 @@ btnDark.addEventListener("click", () => {
 });
 
 /* Modal */
+
+/*Open Modal */
+
 const btnModal = document.getElementById("btnModal");
+const myModal = document.getElementById("myModal");
+const btnClose = document.querySelector(".close");
+
+btnModal.addEventListener("click", () => {
+  myModal.classList.toggle("d-none");
+});
+
+btnClose.addEventListener("click", () => {
+  myModal.classList.toggle("d-none");
+});
+
+/*Connexion et Inscription */
+const connexion = document.getElementById("login");
+const inscription = document.getElementById("signUp");
+const modalConnexion = document.querySelector(".connexion");
+const modalInscription = document.querySelector(".inscription");
+
+connexion.addEventListener("click", () => {
+  modalConnexion.classList.remove("d-none");
+  modalInscription.classList.add("d-none");
+});
+
+inscription.addEventListener("click", () => {
+  modalConnexion.classList.add("d-none");
+  modalInscription.classList.remove("d-none");
+  console.log("Hello");
+});
