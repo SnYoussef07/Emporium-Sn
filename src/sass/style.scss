@@ -11,6 +11,8 @@ $danger: #bd584e;
 @import "./sectionCarousel";
 @import "./shopServiceAway";
 @import "./footer";
+@import "./modal";
+@import "./mediaQuery";
 
 @font-face {
   font-family: "poppins";
@@ -28,74 +30,6 @@ body {
     background-color: #0a0a0a;
     p {
       color: #909090;
-    }
-  }
-
-  .myModal {
-    //display: none; /* Hidden by default */
-    position: fixed; /* Fixe sur l'ecran */
-    z-index: 1; // premier plan
-    padding-top: 12%; /* Location of the box */
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
-
-    .modal-content {
-      margin: auto;
-      padding: 20px;
-      border: 1px solid #888;
-      width: 70%;
-    }
-    .close {
-      color: #aaaaaa;
-      float: right;
-      font-size: 28px;
-      font-weight: bold;
-    }
-    .connexion {
-      display: flex;
-    }
-    .inscription {
-      display: flex;
-    }
-  }
-}
-
-/* query pour tablette*/
-@media (min-width: 768px) and (max-width: 991px) {
-  footer {
-    .row {
-      .boxFooter {
-        border: none !important;
-      }
-      .myButton {
-        padding: 0 !important;
-      }
-    }
-  }
-}
-
-/* query Pour smartphon*/
-@media (max-width: 767px) {
-  #sectionShop {
-    #h1Media {
-      font-size: 3.6rem;
-    }
-  }
-  footer {
-    .container {
-      padding: 0 !important;
-    }
-
-    .row {
-      .boxFooter {
-        border: none !important;
-      }
-      .myButton {
-        padding: 0 !important;
-      }
     }
   }
 }

@@ -1,0 +1,36 @@
+/* query pour tablette*/
+@media (min-width: 768px) and (max-width: 991px) {
+  footer {
+    .row {
+      .boxFooter {
+        border: none !important;
+      }
+      .myButton {
+        padding: 0 !important;
+      }
+    }
+  }
+}
+
+/* query Pour smartphon*/
+@media (max-width: 767px) {
+  #sectionShop {
+    #h1Media {
+      font-size: 3.6rem;
+    }
+  }
+  footer {
+    .container {
+      padding: 0 !important;
+    }
+
+    .row {
+      .boxFooter {
+        border: none !important;
+      }
+      .myButton {
+        padding: 0 !important;
+      }
+    }
+  }
+}

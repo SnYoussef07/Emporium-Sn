@@ -15449,23 +15449,7 @@ footer .myButton a {
   color: #909090;
 }
 
-@font-face {
-  font-family: "poppins";
-  src: url("../fonts/Poppins-ExtraBold.ttf");
-}
-body {
-  font-family: "poppins", cursive;
-}
-body .navbar {
-  display: block;
-}
-body #sectionCopy {
-  background-color: #0a0a0a;
-}
-body #sectionCopy p {
-  color: #909090;
-}
-body .myModal {
+.myModal {
   position: fixed;
   /* Fixe sur l'ecran */
   z-index: 1;
@@ -15481,22 +15465,22 @@ body .myModal {
   background-color: rgba(0, 0, 0, 0.4);
   /* Black w/ opacity */
 }
-body .myModal .modal-content {
+.myModal .modal-content {
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
   width: 70%;
 }
-body .myModal .close {
+.myModal .close {
   color: #aaaaaa;
   float: right;
   font-size: 28px;
   font-weight: bold;
 }
-body .myModal .connexion {
+.myModal .connexion {
   display: flex;
 }
-body .myModal .inscription {
+.myModal .inscription {
   display: flex;
 }
 
@@ -15524,6 +15508,22 @@ body .myModal .inscription {
   footer .row .myButton {
     padding: 0 !important;
   }
+}
+@font-face {
+  font-family: "poppins";
+  src: url("../fonts/Poppins-ExtraBold.ttf");
+}
+body {
+  font-family: "poppins", cursive;
+}
+body .navbar {
+  display: block;
+}
+body #sectionCopy {
+  background-color: #0a0a0a;
+}
+body #sectionCopy p {
+  color: #909090;
 }
 
 /*# sourceMappingURL=style.css.map */

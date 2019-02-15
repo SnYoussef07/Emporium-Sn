@@ -1,0 +1,30 @@
+.myModal {
+  //display: none; /* Hidden by default */
+  position: fixed; /* Fixe sur l'ecran */
+  z-index: 1; // premier plan
+  padding-top: 12%; /* Location of the box */
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+
+  .modal-content {
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 70%;
+  }
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .connexion {
+    display: flex;
+  }
+  .inscription {
+    display: flex;
+  }
+}
