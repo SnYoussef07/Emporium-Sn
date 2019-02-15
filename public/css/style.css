@@ -15502,6 +15502,13 @@ footer .myButton a {
   .myModal .modal-content .inscription input {
     width: 35%;
   }
+
+  .navbar .formNav {
+    width: 90%;
+  }
+  .navbar .row {
+    text-align: left !important;
+  }
 }
 /* query Pour smartphon*/
 @media (max-width: 767px) {
@@ -15530,6 +15537,13 @@ footer .myButton a {
   }
   .myModal .modal-content .inscription input {
     width: 45%;
+  }
+
+  .navbar .formNav {
+    width: 90%;
+  }
+  .navbar .ulNav {
+    width: 10%;
   }
 }
 @font-face {

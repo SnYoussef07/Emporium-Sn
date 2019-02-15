@@ -17,12 +17,14 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white switchColor">
       <div class="row mb-3 text-center">
-        <div class="col-lg-2">
+        <div class="col-sm-12 col-lg-2 col-md-2">
           <h4>
             <a class="navbar-brand d-none" href="#"
               ><strong>emporium.</strong></a
             >
           </h4>
+        </div>
+        <div class="col-sm-6 col-lg-7 col-md-7 ulNav">
           <button
             class="navbar-toggler"
             type="button"
@@ -34,8 +36,6 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-        </div>
-        <div class="col-lg-7">
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto">
               <li class="nav-item active mr-3">
@@ -59,13 +59,13 @@
             </ul>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-sm-6 col-lg-3 col-md-3 formNav">
           <button
-            class="btn btn-light border border-dark p-3 rounded-circle"
+            class="btn btn-light border border-dark p-2 rounded-circle"
             id="btnWhite"
           ></button>
           <button
-            class="btn btn-dark border border-dark p-3 rounded-circle border-white"
+            class="btn btn-dark border border-dark p-2 rounded-circle border-white"
             id="btnDark"
           ></button>
           <button class="btn btn-dark ml-3" id="btnModal">conexion</button>
@@ -99,7 +99,11 @@
               <input type="text" placeholder="Age" class="mb-3 mr-3" />
               <input type="text" placeholder="Email" class="mb-3 mr-3" />
             </div>
-            <input type="password" placeholder="Mot de passe" class="mx-auto mb-3" />
+            <input
+              type="password"
+              placeholder="Mot de passe"
+              class="mx-auto mb-3"
+            />
             <button class="btn btn-success">Submit</button>
           </div>
         </div>

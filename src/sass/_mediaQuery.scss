@@ -24,6 +24,15 @@
       }
     }
   }
+
+  .navbar {
+    .formNav {
+      width: 90%;
+    }
+    .row {
+      text-align: left !important;
+    }
+  }
 }
 
 /* query Pour smartphon*/
@@ -65,6 +74,15 @@
           width: 45%;
         }
       }
+    }
+  }
+
+  .navbar {
+    .formNav {
+      width: 90%;
+    }
+    .ulNav {
+      width: 10%;
     }
   }
 }
