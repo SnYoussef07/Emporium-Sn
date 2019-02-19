@@ -24,6 +24,17 @@ body {
 
   .navbar {
     display: block;
+    transition: 0.5s;
+
+    position: sticky;
+    left: 0;
+    right: 0;
+    top: -75px;
+    z-index: 100;
+  }
+
+  .switchColor {
+    transition: 0.5s;
   }
 
   #sectionCopy {
@@ -33,4 +44,3 @@ body {
     }
   }
 }
-

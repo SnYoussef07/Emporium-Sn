@@ -9,10 +9,14 @@ const navbarHid = () => {
     document.documentElement.scrollTop > 600
   ) {
     document.querySelector(".navbar-brand").classList.remove("d-none");
-    document.querySelector(".navbar").classList.add("fixed-top");
+
+    document.querySelector(".navbar").style.position = "fixed";
+    document.querySelector(".navbar").style.top = "0px";
   } else {
     document.querySelector(".navbar-brand").classList.add("d-none");
-    document.querySelector(".navbar").classList.remove("fixed-top");
+    
+    document.querySelector(".navbar").style.position = "sticky";
+    document.querySelector(".navbar").style.top = "-70px";
   }
 };
 
