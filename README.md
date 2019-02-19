@@ -1,6 +1,5 @@
 # JavaScript Web Project
 
-During our coding training at **MolenGeek** we had to reproduce this website theme (see image below) to earn our badges. We have used the following languages/tools for the realisation of this project: **HTML5, Sass, Bootstrap 4, JavaScript (ES6), NPM, Trello, Git & GitHub**.
 
 Projet de la **Coding school 6** , reproduction du site internet emporium https://demo.goodlayers.com/infinite/homepages/emporium/# 
 
