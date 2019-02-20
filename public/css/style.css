@@ -15573,6 +15573,10 @@ footer .myButton a {
   font-family: "poppins";
   src: url("../fonts/Poppins-ExtraBold.ttf");
 }
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "poppins", cursive;
 }
