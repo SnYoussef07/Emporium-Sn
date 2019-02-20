@@ -1,13 +1,15 @@
 .myModal {
   //display: none; /* Hidden by default */
   position: fixed; /* Fixe sur l'ecran */
-  z-index: 1; // premier plan
+  z-index: 150; // premier plan
   padding-top: 10%; /* Location of the box */
   top: 0;
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
   background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  transition: 0.5s;
+  transform: scale(0);
 
   .modal-content {
     margin: auto;

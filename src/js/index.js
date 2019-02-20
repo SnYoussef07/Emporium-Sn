@@ -14,9 +14,9 @@ const navbarHid = () => {
     document.querySelector(".navbar").style.top = "0px";
   } else {
     document.querySelector(".navbar-brand").classList.add("d-none");
-    
+
     document.querySelector(".navbar").style.position = "sticky";
-    document.querySelector(".navbar").style.top = "-70px";
+    document.querySelector(".navbar").style.top = "-75px";
   }
 };
 
@@ -55,13 +55,14 @@ btnDark.addEventListener("click", () => {
 const btnModal = document.getElementById("btnModal");
 const myModal = document.getElementById("myModal");
 const btnClose = document.querySelector(".close");
+const modalContent = document.querySelector(".modal-content");
 
 btnModal.addEventListener("click", () => {
-  myModal.classList.toggle("d-none");
+  myModal.style.transform = "scale(1.1)";
 });
 
 btnClose.addEventListener("click", () => {
-  myModal.classList.toggle("d-none");
+  myModal.style.transform = "scale(0.0)";
 });
 
 /*Connexion et Inscription */
