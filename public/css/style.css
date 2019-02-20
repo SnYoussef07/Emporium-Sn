@@ -15464,8 +15464,8 @@ footer .myButton a {
   /* Enable scroll if needed */
   background-color: rgba(0, 0, 0, 0.4);
   /* Black w/ opacity */
-  transition: 0.5s;
-  transform: scale(0);
+  transition: 0.9s;
+  transform: scale(0) rotate(180deg);
 }
 .myModal .modal-content {
   margin: auto;

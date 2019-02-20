@@ -59,10 +59,13 @@ const modalContent = document.querySelector(".modal-content");
 
 btnModal.addEventListener("click", () => {
   myModal.style.transform = "scale(1.1)";
+
+  myModal.style.transform += "rotate(0deg)";
 });
 
 btnClose.addEventListener("click", () => {
   myModal.style.transform = "scale(0.0)";
+  myModal.style.transform += "rotate(180deg)";
 });
 
 /*Connexion et Inscription */
