@@ -5,7 +5,7 @@ Projet de la **Coding school 6** , reproduction du site internet emporium https:
 
 utilisation des langages / outils suivants  =>  **HTML5, Sass, Bootstrap 4, JavaScript (ES6), NPM, Git & GitHub**.
 
-![Alt](https://raw.githubusercontent.com/SnYoussef07/Sn-Emporium/secondBranch/ImgPage.png)
+![Alt](https://raw.githubusercontent.com/SnYoussef07/Emporium-Sn/secondBranch/ImgPage.png)
 
 ## Getting Started
 
@@ -71,58 +71,3 @@ npm install
 
 
 ---
-
-
-## Gain des badges
-
-### html
-
--   structure page
--   commentaires utiles
--   pas de balises mal fermées
-    
-### css
-    
--   code réutilisables (avec classes)
--   pas de propriétés inutiles
--   class et id qui parlent
--   import de fonts (@font-face)
--   media-queries
--   ordre d'import
-
-### sass
-
--   respect css
--   utiliser l'imbrication sass
--   utiliser des variables
--   imports de fichiers sass
--   import de bootstrap et fontawesome dans sass !
-
-### bootstrap
-
--   respect css
--   structure class (container>row>col)
--   responsivité (class sm, ...)
--   utiliser jquery bootstrap (carousels, spyscroll, tabpans) (2)
-    
-### structure du projet    
--   structure vu au cours
-
-### javascript
-- La todolist
-- Le projet web js "emporium"
-
-#### git
-  - Savoir Créer des branches et travailler dessus
-  - Faire des commits, **claires et utiles**
-  - Utiliser le fichier .gitignore
-
-#### github
-  - Mettre son projet sur github
-  - Remplir le fichier README.md avec comme contenu l'explication du projet
-
-#### markdown
-  - Le README.md de github doit prouver que le markdown est maitrisé (en mettant divers raccourcis markdown)
-
-#### emmet
-  - Pouvoir montrer l'utilisation d'emmet
